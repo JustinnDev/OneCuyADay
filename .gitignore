@@ -15,3 +15,62 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Godot específico
+.godot/
+.import/
+.mono/
+.idea/
+.vs/
+.vscode/
+
+# Archivos generados por Godot
+*.gen.*
+export_presets.cfg
+
+# Archivos temporales de Godot
+*~
+
+# Mono / C# específico
+# Paquete de ensamblados de Mono
+*.userprefs
+*.csproj.user
+mono_crash.*
+*.pidb
+*.booproj
+*.sln.docstates
+
+# Archivos de salida de compilación de C#
+bin/
+obj/
+*.dll
+*.exe
+*.exe.mdb
+*.mdb
+*.pdb
+
+# Archivos de usuario de Visual Studio
+*.suo
+*.user
+*.sln.ide
+.vs/
+
+# Archivos de depuración
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración local
+config_local.cfg
+*.environment
+
+# Exportación de juegos (si quieres incluir exportaciones, comenta estas líneas)
+exported/
+export_presets.cfg.local
+
+# Archivos específicos de C# de Godot
+*.import
