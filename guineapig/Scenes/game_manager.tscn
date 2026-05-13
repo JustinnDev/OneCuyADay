@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dbxx68d3tkekg"]
+
+[ext_resource type="Script" uid="uid://7gca3tcq8p85" path="res://Scripts/Behaviour/GameManager.cs" id="1_oj352"]
+
+[node name="GameManager" type="Node2D" unique_id=122267292]
+script = ExtResource("1_oj352")
+
+[node name="Control" type="Control" parent="." unique_id=945873720]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="Control" unique_id=605202894]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 2.0
+offset_right = 43.0
+offset_bottom = 42.0
+columns = 3
