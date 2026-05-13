@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CuyData" format=3 uid="uid://bilmwgn7hadn"]
+
+[ext_resource type="Texture2D" uid="uid://dd4nkgkwppaqj" path="res://Sprites/Cuys/Cuy1.jpg" id="1_alku1"]
+[ext_resource type="Script" uid="uid://bkka222x64m4j" path="res://Scripts/Resources/CuyData.cs" id="1_gofoa"]
+
+[resource]
+script = ExtResource("1_gofoa")
+Name = "Alfred"
+Texture = ExtResource("1_alku1")
+metadata/_custom_type_script = "uid://bkka222x64m4j"

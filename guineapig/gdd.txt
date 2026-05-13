@@ -1,0 +1,12 @@
+OneCuyADay
+
+Es un juego donde conseguiras un cuy al dia, abra por el momento 30 cuys pero se programara para que sea extendible a los que querramos
+
+Cuy:
+- Nombre
+- Rasa
+- Imagen
+- ComidaFavorita
+- Felicidad
+- Nivel
+- Limpieza

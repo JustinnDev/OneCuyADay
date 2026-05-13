@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="CuyData" format=3 uid="uid://cwcy8rj4vlktp"]
+
+[ext_resource type="Script" uid="uid://bkka222x64m4j" path="res://Scripts/Resources/CuyData.cs" id="1_5d1ad"]
+
+[resource]
+script = ExtResource("1_5d1ad")
+Name = "Candy"
+metadata/_custom_type_script = "uid://bkka222x64m4j"
