@@ -11,8 +11,18 @@ config_version=5
 [application]
 
 config/name="guineapig"
+run/main_scene="uid://dbxx68d3tkekg"
 config/features=PackedStringArray("4.6", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+ScreenManager="*uid://dyveg70vpt4j5"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1080
 
 [dotnet]
 

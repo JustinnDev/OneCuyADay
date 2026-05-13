@@ -15,9 +15,15 @@ namespace Game
             _container = GetNode<GridContainer>("Control/GridContainer");
             _container.Columns = cuys.Length;
 
+
             foreach (var cuy in cuys)
             {
-                _container.AddChild(new Label { Text = cuy.Name });    
+                
+                var texture = new TextureRect();
+                texture.Texture = cuy.Texture;
+                texture.CustomMinimumSize = new Vector2(200,200);
+
+                _container.AddChild(texture);    
             }
         }
 
