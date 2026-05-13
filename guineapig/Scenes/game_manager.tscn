@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://dbxx68d3tkekg"]
 
 [ext_resource type="Script" uid="uid://7gca3tcq8p85" path="res://Scripts/Behaviour/GameManager.cs" id="1_oj352"]
+[ext_resource type="Texture2D" uid="uid://4nwc628tos5x" path="res://Sprites/Cuys/Cuy3.jpg" id="2_mmt5l"]
+[ext_resource type="Texture2D" uid="uid://d1qvg606remnx" path="res://Sprites/Cuys/Cuy2.jpg" id="3_fgdfb"]
+[ext_resource type="Texture2D" uid="uid://dd4nkgkwppaqj" path="res://Sprites/Cuys/Cuy1.jpg" id="4_yqty0"]
 
 [node name="GameManager" type="Node2D" unique_id=122267292]
 script = ExtResource("1_oj352")
@@ -13,8 +16,23 @@ offset_bottom = 40.0
 
 [node name="GridContainer" type="GridContainer" parent="Control" unique_id=605202894]
 layout_mode = 0
-offset_left = 3.0
-offset_top = 2.0
-offset_right = 43.0
-offset_bottom = 42.0
+offset_right = 706.0
+offset_bottom = 612.0
 columns = 3
+
+[node name="TextureRect3" type="TextureRect" parent="Control/GridContainer" unique_id=1738071678]
+layout_mode = 2
+texture = ExtResource("4_yqty0")
+stretch_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="Control/GridContainer" unique_id=996210933]
+visible = false
+layout_mode = 2
+texture = ExtResource("2_mmt5l")
+stretch_mode = 3
+
+[node name="TextureRect2" type="TextureRect" parent="Control/GridContainer" unique_id=1317809875]
+visible = false
+layout_mode = 2
+texture = ExtResource("3_fgdfb")
+stretch_mode = 3
